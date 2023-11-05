@@ -1,0 +1,37 @@
+_id: req_d56fb3b8110840c2b46f133a0dde36d9
+type: Request
+parentId: fld_c5438cae11454cfcbe85967200e99fa1
+modified: 1699206657363
+created: 1693403907360
+url: "{{ _.base_url }}/{{ _.version }}/game"
+name: CreateGame
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"users_ids": ["5f5f4cf4-930f-4ed5-a58c-e385b67574ba"],
+    	"frequency": 24,
+    	"steps": 7,
+    	"hider_type": "pixels",
+    	"image": "{{ _.dummy_image }}"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTkyOTIzNzgsImlkIjoiODMyMmNkYTAtNzUzMC00YTAwLThmYjQtODNlNGMzZWJlM2FiIiwiaXNBZG1pbiI6dHJ1ZX0.lmXcyhQPCxKpoUyRIFwRMyxcUEi2mJqmxEnQOmEVvCs
+  disabled: false
+metaSortKey: -1693403907360
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

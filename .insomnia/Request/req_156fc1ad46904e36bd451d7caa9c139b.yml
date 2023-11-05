@@ -1,0 +1,25 @@
+_id: req_156fc1ad46904e36bd451d7caa9c139b
+type: Request
+parentId: fld_c5438cae11454cfcbe85967200e99fa1
+modified: 1694113385583
+created: 1693404415007
+url: "{{ _.base_url }}/{{ _.version }}/game/f21c6945-c292-4238-aaa2-e51bcf386831"
+name: GetGame
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTQxOTk1NTgsImlkIjoiZWIwZTFiZjctYTIwMS00YzJhLWE1NzQtMjQ3MmVkYzg3Mzg4IiwiaXNBZG1pbiI6dHJ1ZX0.3VTyCYTvKu3m1a3eFQTNidW4PJJUCL9N5trTAkclmJk
+metaSortKey: -1693403619219.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
