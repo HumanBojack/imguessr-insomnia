@@ -1,0 +1,25 @@
+_id: req_b4de51230e514578b9075a357a9d5d23
+type: Request
+parentId: fld_54b15d1599474bd39b84d89729b07463
+modified: 1693499292941
+created: 1693403331079
+url: "{{ _.base_url }}/{{ _.version }}/user/45454fbd-1c01-43df-a82d-a4128c6fcf8b"
+name: DeleteUser
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTM1ODQzOTgsImlkIjoiN2YyOGI5MzAtODczOC00MDA5LWE4NWItNWM5N2ZiMTNkMzJmIiwiaXNBZG1pbiI6dHJ1ZX0.umJcUZeDhNgXPEN95qeGmfAZ-7cHsgpdNv-9ts2lrtw
+metaSortKey: -1693403331079
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

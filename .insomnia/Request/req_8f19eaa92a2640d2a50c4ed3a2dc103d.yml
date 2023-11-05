@@ -1,0 +1,34 @@
+_id: req_8f19eaa92a2640d2a50c4ed3a2dc103d
+type: Request
+parentId: fld_54b15d1599474bd39b84d89729b07463
+modified: 1699206040314
+created: 1693498392933
+url: "{{ _.base_url }}/{{ _.version }}/user"
+name: CreateUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Name": "Jearssasn",
+    	"Password": "MyPWD",
+    	"IsAdmin": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTkyOTIzNzgsImlkIjoiODMyMmNkYTAtNzUzMC00YTAwLThmYjQtODNlNGMzZWJlM2FiIiwiaXNBZG1pbiI6dHJ1ZX0.lmXcyhQPCxKpoUyRIFwRMyxcUEi2mJqmxEnQOmEVvCs
+metaSortKey: -1693403331179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

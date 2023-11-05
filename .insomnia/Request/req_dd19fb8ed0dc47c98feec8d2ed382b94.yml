@@ -1,0 +1,33 @@
+_id: req_dd19fb8ed0dc47c98feec8d2ed382b94
+type: Request
+parentId: fld_54b15d1599474bd39b84d89729b07463
+modified: 1693501733129
+created: 1693403827241
+url: "{{ _.base_url }}/{{ _.version }}/user/88bf4933-e1ef-4407-b094-55758cce4f12"
+name: UpdateUser
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Name": "John",
+    	"IsAdmin": true
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTM1ODgxMTcsImlkIjoiODhiZjQ5MzMtZTFlZi00NDA3LWIwOTQtNTU3NThjY2U0ZjEyIiwiaXNBZG1pbiI6ZmFsc2V9.RfLmLEFlRUcU8wYdkSCni_LwkErXFnLZAZYO_bJvCy0
+metaSortKey: -1685611546546.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
