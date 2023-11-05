@@ -1,0 +1,31 @@
+_id: req_971d9f91dd05435fbbfa8ec6f2c69c1e
+type: Request
+parentId: fld_8dd6ddc79beb41cdad8029adf9e136ab
+modified: 1694111693838
+created: 1693414144833
+url: "{{ _.base_url }}/{{ _.version }}/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Name": "Jean",
+    	"Password": "MyPWD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1693414144983
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

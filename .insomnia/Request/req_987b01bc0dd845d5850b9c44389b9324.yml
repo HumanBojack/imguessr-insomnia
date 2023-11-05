@@ -1,0 +1,33 @@
+_id: req_987b01bc0dd845d5850b9c44389b9324
+type: Request
+parentId: fld_8dd6ddc79beb41cdad8029adf9e136ab
+modified: 1694111684674
+created: 1693403646154
+url: "{{ _.base_url }}/{{ _.version }}/auth/register"
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Name": "Jean",
+    	"Password": "MyPWD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTM1ODQzOTgsImlkIjoiN2YyOGI5MzAtODczOC00MDA5LWE4NWItNWM5N2ZiMTNkMzJmIiwiaXNBZG1pbiI6dHJ1ZX0.umJcUZeDhNgXPEN95qeGmfAZ-7cHsgpdNv-9ts2lrtw
+metaSortKey: -1693414144883
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
